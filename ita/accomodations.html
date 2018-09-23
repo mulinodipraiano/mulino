@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Il Mulino di Praiano</title>
+<link href="../style2.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style1 {color: #EB7130}
+.style2 {color: #FFFFFF}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('../graphics/itnav-over01.jpg','../graphics/itnav-over02.jpg','../graphics/itnav-over03.jpg','../graphics/itnav-over04.jpg','../graphics/itnav-over05.jpg','../graphics/itnav-over06.jpg','../graphics/itnav-over07.jpg','../graphics/itnav-over08.jpg')">
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="356" height="260" valign="top" class="td-top"><a href="http://www.ilmulinodipraiano.com"><img src="../graphics/title01.jpg" width="356" height="68" border="0" /></a><br />
+      <a href="description.html" target="_top" onclick="MM_nbGroup('down','group1','descr','',1)" onmouseover="MM_nbGroup('over','descr','../graphics/itnav-over01.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="../graphics/itnav-up01.jpg" alt="" name="descr" width="240" height="29" border="0" id="descr" onload="" /></a> <br />
+      <a href="accomodations.html" target="_top" onclick="MM_nbGroup('down','group1','accom','',1)" onmouseover="MM_nbGroup('over','accom','../graphics/itnav-over02.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="../graphics/itnav-up02.jpg" alt="" name="accom" width="240" height="23" border="0" id="accom" onload="" /></a> <br />
+      <a href="../images/photography.html" target="_top" onclick="MM_nbGroup('down','group1','photos','',1)" onmouseover="MM_nbGroup('over','photos','../graphics/itnav-over03.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="../graphics/itnav-up03.jpg" alt="" name="photos" width="240" height="23" border="0" id="photos" onload="" /></a> <br />
+      <a href="location.html" target="_top" onclick="MM_nbGroup('down','group1','villalocation','',1)" onmouseover="MM_nbGroup('over','villalocation','../graphics/itnav-over04.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="../graphics/itnav-up04.jpg" alt="" name="villalocation" width="240" height="24" border="0" id="villalocation" onload="" /></a> <br />
+      <a href="facilities.html" target="_top" onclick="MM_nbGroup('down','group1','facilities','',1)" onmouseover="MM_nbGroup('over','facilities','../graphics/itnav-over05.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="../graphics/itnav-up05.jpg" alt="" name="facilities" width="240" height="23" border="0" id="facilities" onload="" /></a> <br />
+      <a href="rates.html" target="_top" onclick="MM_nbGroup('down','group1','rates','',1)" onmouseover="MM_nbGroup('over','rates','../graphics/itnav-over06.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="../graphics/itnav-up06.jpg" alt="" name="rates" width="240" height="25" border="0" id="rates" onload="" /></a> <br />
+      <a href="contact.html" target="_top" onclick="MM_nbGroup('down','group1','contact','',1)" onmouseover="MM_nbGroup('over','contact','../graphics/itnav-over07.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="../graphics/itnav-up07.jpg" alt="" name="contact" width="240" height="27" border="0" id="contact" onload="" /></a> <br />
+      <a href="guestbook/index.php" target="_top" onClick="MM_nbGroup('down','group1','guestbook','',1)" onMouseOver="MM_nbGroup('over','guestbook','../graphics/itnav-over08.jpg','',1)" onMouseOut="MM_nbGroup('out')"><img name="guestbook" src="../graphics/itnav-up08.jpg" border="0" alt="" onLoad="" /></a> <br />
+    <div align="right"></div></td>
+    <td width="404" valign="top" class="td-top"><div align="left"><img src="../graphics/pic-desc01.jpg" width="404" height="273" /></div></td>
+  </tr>
+  <tr>
+    <td colspan="2" class="td-content"><p><span class="style2">A l l o g g i </span><strong> <br />
+        </strong><br />
+        <strong><u>Il piano sopra</u></strong><br />
+Il piano di sopra (di circa 120 metri quadri) pu&ograve; accomodare 4 persone. Ha due stanze da letto e due bagni. <br />
+<br />
+Dall&rsquo;ingresso sul livello della strada si entra in un ballatoio sopra la propriet&agrave;. Scendendo una rampa di scale si accede a un cortile di mattoni di cotto che d&agrave; sul mare. Il cortile &egrave; decorato con grandi orci di terracotta che contengono piante di bouganville e arredato con sdraio di legno e tela bianca, un divanetto di midollino con due poltrone e un tavolino. A offrire l&rsquo;ombra&nbsp; &egrave; un grande ombrellone pensile di tela bianca e una tenda in stile andaluso dello stesso materiale. <br />
+<br />
+Di notte il cortile &egrave; illuminato da luci a terra, nascoste dietro gli orci, e da lanterne con candele in stile marocchino appese su un grande tavolo di ferro battuto con piano di mattonelle di Vietri decorate a mano. Attraverso due porte a vetro si entra in un grande spazio aperto (di circa 50 metri quadri) con cupole, soffitti a volta, una porta-finestra con vista sul mare e un camino. Lo spazio&nbsp; &egrave; arredato in modo semplice ma elegante con un divano bianco, un tavolo di ferro battuto con piano di cristallo e un altro divanetto di midollino con due poltrone. La cucina (di circa 20 metri quadri) ha una grande porta-finestra a una sola anta con una straordinaria vista sul mare, un tavolo di legno per 6/8 persone, un lavello molto grande di travertino scavato a mano, mattonelle napoletane antiche, un frigorifero d&rsquo;acciaio di dimensioni &ldquo;americane&rdquo;, una cucina semiprofessionale, un forno elettrico e una lavapiatti molto silenziosa. La cucina &egrave; dotata di tutto il necessario: dalle stoviglie alle coppe per lo champagne, dalle pentole alle macchinette per il caff&eacute; di varie dimensioni.<br />
+<br />
+La stanza da letto principale (circa 19 metri quadri) &egrave; illuminata da una porta-finestra a un&rsquo;anta ed&nbsp; &egrave; arredata con un letto a baldacchino dell&rsquo;Ottocento. L&rsquo;intera parete davanti al letto ha due armadi a muro con cassettiere interne e una scrivania dotata di computer (con accesso a Internet tramite linea Dsl), stampante e fax.<br />
+<br />
+Il bagno (circa 5 meti quadri) ha le pareti dipinte coll&rsquo;antico metodo dello stucco veneziano, il pavimento di mattonelle di Vietri decorate a mano e mensole di travertino. C&rsquo;&egrave; la doccia ma non la vasca da bagno.<br />
+<br />
+La seconda stanza da letto, pi&ugrave; piccola (circa 10 metri quadri),&nbsp; &egrave; arredata con due letti con testate di legno antiche che possono essere mantenuti separati o uniti. Anche qui ci sono due armadi a muro con cassettiera interna. Il bagno a cui questa stanza ha accesso diretto, &egrave; molto spazioso (circa 10 metri quadri), con pareti dipinte col metodo dello stucco veneziano, il pavimento di mattonelle di Vietri decorate a mano e mensole di travertino. E&rsquo; dotato sia di doccia che di vasca da bagno.</p>
+      <p><strong><u><br />
+        Il piano di sotto</u></strong><br />
+        L&rsquo;appartamento al piano di sotto (circa 60 metri quadri) pu&ograve; accomodare 2 persone (pi&ugrave; una terza). Ha una grande stanza da letto che d&agrave; sul mare con un suo bagno.<br />
+        <br />
+        Circa 20 gradini separano il cortile superiore da quello inferiore. Sotto una pergola di grosse travi di legno decorata con piante di bouganville rosse e viola e tende di tela bianca, c&rsquo; &egrave; un grande tavolo di ferro battuto con mattonelle di Vietri decorate a mano.<br />
+        <br />
+        Il prato davanti al pergolato &egrave; tenuto verde tutto l&rsquo;anno da un sistema di irrigazione. Sulla destra, un albero di melograno fa ombra su un enorme orcio fatto a mano. <br />
+        <br />
+        La stanza da letto (15 metri quadri) guarda sul mare attraverso un&rsquo;intera parete di cristallo, con vista sull&rsquo;isoletta de Li Galli e la silhouette di Capri all&rsquo;orizzonte. Definirla magica &egrave; poco.&nbsp; Il letto matrimoniale &egrave; affiancato da un armadio a muro con cassettiera. Il bagno (circa 6 metri quadri) ha le pareti dipinte col metodo dello stucco veneziano, il pavimento di mattonelle di Vietri decorate a mano e mensole di travertino. E&rsquo; dotato sia di doccia che di vasca da bagno.<br />
+        <br />
+      A fianco della stanza da letto, sempre sul mare e con il suo accesso indipendente al terrazzo attraverso una porta a vetri, c&rsquo;&egrave; il salone (circa 40 metri quadri). E&rsquo; arredato con due divani di tela bianca, una grande cassettiera in noce e un tavolino di vetro. Un grande tavolo di legno divide il salone dall&rsquo;area-cucina, che &egrave; dotata di un lavello di travertino, mattonelle di Vietri dipinte a mano, lavapiatti e frigorifero in stile anni &rsquo;50.<br />
+      <br />
+      <strong><u><br />
+      Il giardino</u></strong><br />
+      Nascosto su un lato e pi&ugrave; in basso, c&rsquo; &egrave; l&rsquo;orto, dove il nostro giardiniere coltiva vari odori, fantastici pomodori, melanzane e patate e dove cresce spontaneamente arugola selvatica. Quando sono in stagione questi prodotti sono a disposizione di tutti gli ospiti con i complimenti della casa.<br />
+      <br />
+      <br />
+      <strong><u>La piscina</u></strong><u></u><br />
+      Scendendo altri 20 gradini si arriva al terzo terrazzamento. Dopo un limone, un albicocco e un prugno, c&rsquo; &egrave; la zona della piscina. Seduti sotto il cannucciato davanti alla piscina, con la straordinaria vista del mare davanti, la silhouette di Capri sullo sfondo e Positano sulla destra, ci si sente in un piccolo paradiso privato. Tre eleganti lettini di acciaio e sei sedie sdraio di alluminio permettono di prendere il sole o riposare all&rsquo;ombra davanti a quel sensazionale panorama.&nbsp; Dentro la piscina, guardando il lato a sfioro si ha l&rsquo;impressione di poter nuotare fin dentro al mare.</p>
+      Pochi gradini pi&ugrave; gi&ugrave;, dopo una doccia esterna nascosta dietro a un muro di pietre e sotto una cupola di ferro battuto ricoperta di bouganville, si accede alla limonaia. Anch&rsquo;essa si affaccia sul mare, Capri e Positano. Sotto il pergolato di rami di limone c&rsquo; &egrave; un tavolo di ferro battuto con piano di ceramica dipinta a mano con quattro sedie. E&rsquo; un angolo perfetto per un drink e un aperitivo al tramonto ( o qualsiasi altra ora.)</td>
+  </tr>
+  <tr>
+    <td colspan="2" class="td-footer">site content &copy;2007 Il Mulino di Praiano</td>
+  </tr>
+</table>
+<span class="style1"></span>
+</body>
+</html>

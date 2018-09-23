@@ -1,0 +1,201 @@
+<gallery>
+	<!-- The line below sets the path to the folder where the images are stored -->
+	<setup path="">
+	<!-- The the following lines are used to customize the look of the gallery -->
+		<imgWidth>600</imgWidth>
+     	<imgHeight>600</imgHeight>
+      	<thumbWidth>50</thumbWidth>
+      	<thumbHeight>50</thumbHeight>
+      	<transitionType>fade</transitionType>
+		<thumbType>images</thumbType>
+     	<thumbnailRows>3</thumbnailRows>
+		<thumbPosition>left</thumbPosition>
+		 <autoPlay>6</autoPlay> 
+		<captionPosition>top</captionPosition>
+		<thumbCaptionChange>true</thumbCaptionChange>
+		<showControls>true</showControls>
+		<backgroundColor>#eb7e43</backgroundColor>
+		<thumbColor>#eb7e43</thumbColor>
+		<thumbRollColor>#eb7e43</thumbRollColor>
+		<thumbActiveColor>#eb7e43</thumbActiveColor> 
+		<imgBgColor >#eb7e43</imgBgColor> 	
+        <backgroundCorner>0</backgroundCorner> 	
+        <imgCorner>0</imgCorner> 	
+        <thumbCorner>0</thumbCorner> 	
+        <thumbMaskCorner>0</thumbMaskCorner>
+		<imageCentering>top</imageCentering>
+		<bgBorderThickness>1</bgBorderThickness>
+		<transitionSpeed>1</transitionSpeed>
+		<soundThumbRoll></soundThumbRoll>
+		<soundThumbClick></soundThumbClick>
+		<noCache>true</noCache>
+		<scrollSpeed>8</scrollSpeed>
+	 </setup>
+	<!-- The following lines set  the names of your images and thumbnails -->
+	<item>
+		<thumb>1-01.jpg</thumb>
+		<img>1.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">1- Entrance from the street / Ingresso dalla strada</font>]]></caption>
+	</item>
+	<item>
+		<thumb>2-01.jpg</thumb>
+		<img>2.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">2- Upstairs terrace 1 / Cortile piano sopra 2</font>]]></caption>
+	</item>
+		<item>
+		<thumb>3-01.jpg</thumb>
+		<img>3.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">3- Upstairs terrace 2 / Cortile piano sopra 2</font>]]></caption>
+	</item>
+	<item>
+		<thumb>4-01.jpg</thumb>
+		<img>4.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">4- Upstairs terrace 3 / Cortile piano sopra 3</font>]]></caption>
+	</item>
+	<item>
+		<thumb>5-01.jpg</thumb>
+		<img>5.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">5- Upstairs terrace view 1 / Terrazzo sopra vista 1</font>]]></caption>
+	</item>
+	<item>
+		<thumb>6-01.jpg</thumb>
+		<img>6.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">6- Table on upstairs terrace / Tavolo sulla terrazza superiore</font>]]></caption>
+	</item>
+		<item>
+		<thumb>7-01.jpg</thumb>
+		<img>7.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">7- Upstairs terrace table / Tavolo cortile sopra</font>]]></caption>
+	</item>
+		<item>
+		<thumb>8-01.jpg</thumb>
+		<img>8.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">8- Upstairs living area / Ingresso e salotto sopra </font>]]></caption>
+	</item>
+		<item>
+		<thumb>9-01.jpg</thumb>
+		<img>9.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">9- Upstairs living room and kitchen / Salotto e cucina sopra</font>]]></caption>
+	</item>
+		<item>
+		<thumb>10-01.jpg</thumb>
+		<img>10.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">10- Upstairs kitchen / Cucina sopra</font>]]></caption>
+	</item>
+		<item>
+		<thumb>11-01.jpg</thumb>
+		<img>11.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">11- Upstairs master bedroom / Stanza da letto grande sopra</font>]]></caption>
+	</item>
+		<item>
+		<thumb>12-01.jpg</thumb>
+		<img>12.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">12- Upstairs smaller bedroom / Stanza da letto piccola sopra</font>]]></caption>
+	</item>
+		<item>
+		<thumb>13-01.jpg</thumb>
+		<img>13.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">13- Upstairs main bathroom / Bagno grande sopra</font>]]></caption>
+	</item>
+		<item>
+		<thumb>14-01.jpg</thumb>
+		<img>14.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">14- View from terrace upstairs / Vista dalla terrazza superiore</font>]]></caption>
+	</item>
+		<item>
+		<thumb>15-01.jpg</thumb>
+		<img>15.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">15- Downstairs terrace / Cortile sotto</font>]]></caption>
+	</item>
+	
+	<item>
+		<thumb>16-01.jpg</thumb>
+		<img>16.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">16- Downstairs terrace toward Positano / Cortile sotto vista verso Positano</font>]]></caption>
+	</item>
+	<item>
+		<thumb>17-01.jpg</thumb>
+		<img>17.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">17- Downstairs terrace 2 / Cortile sotto 2</font>]]></caption>
+	</item>
+	<item>
+		<thumb>18-01.jpg</thumb>
+		<img>18.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">18- Downstairs view / Vista piano di sotto</font>]]></caption>
+	</item>
+	<item>
+		<thumb>19-01.jpg</thumb>
+		<img>19.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">19-Garden downstairs / Terrazza di sotto</font>]]></caption>
+	</item>
+	<item>
+		<thumb>20-01.jpg</thumb>
+		<img>20.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">20- Downstairs master bedroom / Stanza da letto grande sotto</font>]]></caption>
+	</item>
+	<item>
+		<thumb>21-01.jpg</thumb>
+		<img>21.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">21- View from downstairs master bedroom / Vista da stanza da letto grande sotto</font>]]></caption>
+	</item>
+		<item>
+		<thumb>22-01.jpg</thumb>
+		<img>22.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">22- Steps up / Scale</font>]]></caption>
+	</item>
+		<item>
+		<thumb>23-01.jpg</thumb>
+		<img>23.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">23- Downstairs living room & kitchen / Salotto e cucina sotto</font>]]></caption>
+	</item>
+		<item>
+		<thumb>24-01.jpg</thumb>
+		<img>24.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">24- Steps going to the pool 1 / Scala verso la piscina 1</font>]]></caption>
+	</item>
+		<item>
+		<thumb>25-01.jpg</thumb>
+		<img>25.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">25- The cupola beyond our wall / La cupola dietro al muro</font>]]></caption>
+	</item>
+		<item>
+		<thumb>26-01.jpg</thumb>
+		<img>26.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">26- Looking at the pool from above / Guardando alla piscina dall'alto</font>]]></caption>
+	</item>
+		<item>
+		<thumb>27-01.jpg</thumb>
+		<img>27.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">27- Terrace with the pool / Terrazzamento della piscina</font>]]></caption>
+	</item>
+		<item>
+		<thumb>28-01.jpg</thumb>
+		<img>28.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">28- Swimming pool 1 / Piscina 1</font>]]></caption>
+	</item>
+	<item>
+		<thumb>29-01.jpg</thumb>
+		<img>29.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">29- Swimming pool 2 / Piscina 2</font>]]></caption>
+	</item>
+	<item>
+		<thumb>30-01.jpg</thumb>
+		<img>30.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">30- Swimming pool 3 / Piscina 3</font>]]></caption>
+	</item>
+	<item>
+		<thumb>31-01.jpg</thumb>
+		<img>31.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">31- Swimming pool at sunset / Piscina al tramonto</font>]]></caption>
+	</item>
+	<item>
+		<thumb>32-01.jpg</thumb>
+		<img>32.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">32- Lemon tree pergola / Limonaia</font>]]></caption>
+	</item>
+	<item>
+		<thumb>33-01.jpg</thumb>
+		<img>33.jpg</img>
+		<caption><![CDATA[<font size="11" color="#FFFFFF">33- Winter sunset over the island of Capri / Tramonto invernale su Capri</font>]]></caption>
+	</item>
+</gallery>
