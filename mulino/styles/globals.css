@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@heroicons /react/outline;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
+
+html {
+  font-size: 13px;
+  @apply bg-gray-50;
+  @apply text-gray-900;
+}
+
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 14px;
+    font-family: "Roboto", serif;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+.rich-text-hero a {
+  @apply text-blue-600 underline;
+}
+
+.rich-text-banner {
+  @apply whitespace-pre-line;
+  a {
+    @apply underline;
+  }
+}
+
+.title {
+  @apply text-4xl leading-snug font-semibold;
+}
+
+@media (min-width: 768px) {
+  .title {
+    @apply text-5xl;
+  }
+}
