@@ -22,7 +22,7 @@
     "formik": "^2.2.6",
     "mapbox-gl": "^2.2.0",
     "moment": "^2.24.0",
-    "next": "^9.5.4",
+    "next": "^12.1.0",
     "next-seo": "^4.7.1",
     "postcss": "^7",
     "postcss-nested": "^4.2.3",
